@@ -1,0 +1,67 @@
+<%= form_with(model: subscriber, local: true) do |form| %>
+  <% if subscriber.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(subscriber.errors.count, "error") %> prohibited this subscriber from being saved:</h2>
+
+      <ul>
+      <% subscriber.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :firstname %>
+    <%= form.text_area :firstname %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lastname %>
+    <%= form.text_area :lastname %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_area :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :news %>
+    <%= form.check_box :news %>
+  </div>
+
+  <div class="field">
+    <%= form.label :events %>
+    <%= form.check_box :events %>
+  </div>
+
+  <div class="field">
+    <%= form.label :snowboarding %>
+    <%= form.check_box :snowboarding %>
+  </div>
+
+  <div class="field">
+    <%= form.label :skiing %>
+    <%= form.check_box :skiing %>
+  </div>
+
+  <div class="field">
+    <%= form.label :motoX %>
+    <%= form.check_box :motoX %>
+  </div>
+
+  <div class="field">
+    <%= form.label :skateboarding %>
+    <%= form.check_box :skateboarding %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bmx %>
+    <%= form.check_box :bmx %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

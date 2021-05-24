@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @subscriber.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @subscriber.lastname %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @subscriber.email %>
+</p>
+
+<p>
+  <strong>News:</strong>
+  <%= @subscriber.news %>
+</p>
+
+<p>
+  <strong>Events:</strong>
+  <%= @subscriber.events %>
+</p>
+
+<p>
+  <strong>Snowboarding:</strong>
+  <%= @subscriber.snowboarding %>
+</p>
+
+<p>
+  <strong>Skiing:</strong>
+  <%= @subscriber.skiing %>
+</p>
+
+<p>
+  <strong>Motox:</strong>
+  <%= @subscriber.motoX %>
+</p>
+
+<p>
+  <strong>Skateboarding:</strong>
+  <%= @subscriber.skateboarding %>
+</p>
+
+<p>
+  <strong>Bmx:</strong>
+  <%= @subscriber.bmx %>
+</p>
+
+<%= link_to 'Edit', edit_subscriber_path(@subscriber) %> |
+<%= link_to 'Back', subscribers_path %>
