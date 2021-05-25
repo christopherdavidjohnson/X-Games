@@ -29,6 +29,7 @@ puts "#{User.count} users"
 # end
 
 
+
 Subscriber.destroy_all
 s1 = Subscriber.create :firstname => 'Kimberley', :lastname => "Osborn", :email => 'KO@ga.com', :news => true, :events => true, :skateboarding => true, :snowboarding => true
 
@@ -41,5 +42,6 @@ s4 = Subscriber.create :firstname => 'William', :lastname => "Stone", :email => 
 s5 = Subscriber.create :firstname => 'Mauritz', :lastname => "Erick", :email => 'ME@ga.com', :news => true, :events => true, :motoX => true, :skateboarding => true
 
 s6 = Subscriber.create :firstname => 'Mary Jane', :lastname => "Delgado", :email => 'MJD@ga.com', :news => true, :events => true, :skiing => true, :snowboarding => true
+
 
 puts "#{User.count} subscribers"
