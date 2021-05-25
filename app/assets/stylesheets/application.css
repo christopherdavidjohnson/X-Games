@@ -14,14 +14,38 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.login-div {
-  border-radius: 0.2em;
+body {
+  background-image: 
 }
 
-.container {
-  background-color: black;
-  color: red;
+.login-div {
+  border-radius: 0.5em;
+  background-color: #333333;
+  color: white;
   font-family: 'Inter', sans-serif;
+  max-height: 80vh;
+  max-width: 60vw;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 5em;
+}
+
+.login-header {
+  font-weight: bold;
+  font-size: 24;
+}
+
+.login-button {
+  background-color: rgba(227, 25, 54);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.2em;
 }
