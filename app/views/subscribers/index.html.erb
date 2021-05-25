@@ -2,7 +2,7 @@
 
 <h1>Subscribers</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Firstname</th>
@@ -23,17 +23,17 @@
     <% @subscribers.each do |subscriber| %>
       <tr>
         <td><%= subscriber.firstname %></td>
-        <td><%= subscriber.lastname %></td>
+        <td class='table-striped'><%= subscriber.lastname %></td>
         <td><%= subscriber.email %></td>
-        <td><%= subscriber.news %></td>
+        <td class='table-striped'><%= subscriber.news %></td>
         <td><%= subscriber.events %></td>
-        <td><%= subscriber.snowboarding %></td>
+        <td class='table-striped'><%= subscriber.snowboarding %></td>
         <td><%= subscriber.skiing %></td>
-        <td><%= subscriber.motoX %></td>
+        <td class='table-striped'><%= subscriber.motoX %></td>
         <td><%= subscriber.skateboarding %></td>
-        <td><%= subscriber.bmx %></td>
+        <td class='table-striped'><%= subscriber.bmx %></td>
         <td><%= link_to 'Show', subscriber %></td>
-        <td><%= link_to 'Edit', edit_subscriber_path(subscriber) %></td>
+        <td class='table-striped'><%= link_to 'Edit', edit_subscriber_path(subscriber) %></td>
         <td><%= link_to 'Destroy', subscriber, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
