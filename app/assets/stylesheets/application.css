@@ -16,13 +16,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.login-div {
+body {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.login-div, .success-div{
   border-radius: 0.5em;
   background-color: #333333;
   color: white;
   font-family: 'Inter', sans-serif;
   max-height: 80vh;
-  max-width: 60vw;
+  max-width: 40vw;
   margin: 0 auto;
   margin-top: 1em;
   padding: 5em;
