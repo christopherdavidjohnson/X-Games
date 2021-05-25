@@ -14,48 +14,42 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-body {
-  background-color: white;
-  margin: 0 auto;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-.login-div, .success-div{
-  border-radius: 0.5em;
-  background-color: #333333;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  max-height: 80vh;
-  max-width: 40vw;
-  margin: 0 auto;
-  margin-top: 1em;
-  padding: 5em;
-}
-
-.login-header {
-  padding-bottom: 20px;
-  font-weight: bold;
-  font-size: 24;
-}
-
-.login-button {
-  background-color: rgba(227, 25, 54);
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  margin-top: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 0.2em;
-}
-
-.login-field {
-  color: #C4C4C4;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+ body {
+   background-color: white;
+   margin: 0 auto;
+ }
+ .container {
+   margin: 0 auto;
+ }
+ .login-div, .success-div{
+   border-radius: 0.5em;
+   background-color: #333333;
+   color: white;
+   font-family: 'Inter', sans-serif;
+   max-height: 80vh;
+   max-width: 40vw;
+   margin: 0 auto;
+   margin-top: 1em;
+   padding: 5em;
+ }
+ .login-header {
+   padding-bottom: 20px;
+   font-weight: bold;
+   font-size: 24;
+ }
+ .login-button {
+   background-color: rgba(227, 25, 54);
+   border: none;
+   color: white;
+   padding: 10px 32px;
+   margin-top: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 0.2em;
+ }
+ .login-field {
+   color: #C4C4C4;
+ }
