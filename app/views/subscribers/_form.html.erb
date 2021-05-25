@@ -11,57 +11,86 @@
     </div>
   <% end %>
 
+  <div class = "field-text">
   <div class="field">
     <%= form.label :firstname %>
-    <%= form.text_area :firstname %>
+    <%= form.text_area :firstname, size: "50x2" %>
   </div>
 
   <div class="field">
     <%= form.label :lastname %>
-    <%= form.text_area :lastname %>
+    <%= form.text_area :lastname, size: "50x2"%>
   </div>
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_area :email %>
+    <%= form.text_area :email, size: "50x2" %>
   </div>
 
   <div class="field">
     <%= form.label :news %>
     <%= form.check_box :news %>
   </div>
-
-  <div class="field">
-    <%= form.label :events %>
-    <%= form.check_box :events %>
   </div>
 
-  <div class="field">
-    <%= form.label :snowboarding %>
-    <%= form.check_box :snowboarding %>
-  </div>
 
-  <div class="field">
-    <%= form.label :skiing %>
-    <%= form.check_box :skiing %>
-  </div>
+    <div class="field">
+        <%= form.check_box :events %>
+      <%= form.label :events %>
 
-  <div class="field">
-    <%= form.label :motoX %>
-    <%= form.check_box :motoX %>
-  </div>
+    </div>
 
-  <div class="field">
-    <%= form.label :skateboarding %>
-    <%= form.check_box :skateboarding %>
-  </div>
+    </div>
 
-  <div class="field">
-    <%= form.label :bmx %>
-    <%= form.check_box :bmx %>
-  </div>
+    <div class="field sport">
+        <%= form.check_box :snowboarding %>
+      <%= form.label :snowboarding %>
 
-  <div class="actions">
-    <%= form.submit %>
+    </div>
+
+    <div class="field sport">
+        <%= form.check_box :skiing %>
+      <%= form.label :skiing %>
+
+    </div>
+
+    <div class="field sport">
+        <%= form.check_box :motoX %>
+      <%= form.label :motoX %>
+
+    </div>
+
+    <div class="field sport">
+        <%= form.check_box :skateboarding %>
+      <%= form.label :skateboarding %>
+
+    </div>
+
+    <div class="field sport">
+            <%= form.check_box :bmx %>
+      <%= form.label :bmx %>
+
+    </div>
+
+    <div class="actions">
+      <%= form.submit %>
+    </div>
+
+    <div class="field">
+      <%= form.label :firstname %>
+      <%= form.text_area :firstname %>
+    </div>
+
+    <div class="field">
+      <%= form.label :lastname %>
+      <%= form.text_area :lastname %>
+    </div>
+
+    <div class="field">
+      <%= form.label :email %>
+      <%= form.text_area :email %>
+    </div>
+    </div>
+    </div>
   </div>
 <% end %>

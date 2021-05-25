@@ -1,3 +1,27 @@
-// Place all the styles related to the subscribers controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  margin: 0;
+}
+
+.form-container{
+  overflow: wrap;
+  background-color: white;
+  width: 100vw;
+}
+
+.news-events{
+  display: inline-block;
+}
+
+label{
+  display: inline-block!important;
+}
+
+.sport{
+  margin-left: 20vw;
+}
+
+.form-inner-container{
+  background-color: #333333;
+  color: white;
+  width: 50vw;
+}
