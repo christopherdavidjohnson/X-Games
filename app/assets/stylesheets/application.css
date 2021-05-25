@@ -14,14 +14,7 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-.login-div {
-  border-radius: 0.2em;
-}
-
-.container {
-  background-color: black;
-  color: red;
-  font-family: 'Inter', sans-serif;
+button {
+  margin-left: 90%;
 }

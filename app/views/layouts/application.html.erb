@@ -4,21 +4,17 @@
     <title>XGames</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="container">
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <%= link_to "Admin Login", login_path, :class => "navbar-brand mb-0 h1"%>
-        </div>
-      </nav>
-
+        <button class="login-button">
+          <%= link_to "Admin Login", login_path %>
+        </button>
 
     <%= yield %>
-    </div>
   </body>
 </html>
