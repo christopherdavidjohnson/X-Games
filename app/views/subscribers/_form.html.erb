@@ -11,7 +11,13 @@
     </div>
   <% end %>
 
+  <div class = "field-text">
+  <div class="field">
+    <%= form.label :firstname %>
+    <%= form.text_area :firstname, size: "50x2" %>
+  </div>
 
+<<<<<<< HEAD
   <div class="background">
   <div class="form-container">
     <div class="form-inner-container">
@@ -22,8 +28,17 @@
     <p class="customize"> Customize Subscription </p>
     <p class="select yoru pref"> Select your preferences </p>
       <div class="form-white-stuff">
+=======
+  <div class="field">
+    <%= form.label :lastname %>
+    <%= form.text_area :lastname, size: "50x2"%>
+  </div>
+>>>>>>> 14bcbd29f3fa3985511ede8faa59e57e41452b8c
 
-  <div class="news-events">
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_area :email, size: "50x2" %>
+  </div>
 
     <div class="field">
       <%= form.check_box :news %>
