@@ -4,7 +4,7 @@
   <h2><%= flash[:error_message] %></h2>
 <% end %>
 
-<%= form_tag subscribers_path  do %>
+<%= form_tag root_path  do %>
   <%= label_tag :email %>
   <%= email_field_tag :email%>
 
