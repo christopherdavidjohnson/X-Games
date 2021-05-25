@@ -10,6 +10,7 @@
 
 .news-events{
   display: inline-block;
+  width: 100%;
 }
 
 label{
@@ -17,11 +18,39 @@ label{
 }
 
 .sport{
-  margin-left: 20vw;
+  margin-left: 5%;
 }
 
 .form-inner-container{
   background-color: #333333;
   color: white;
   width: 50vw;
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+#subscriber_firstname{
+  height: 25px;
+  border-radius: 10px;
+  resize: none;
+
+}
+#subscriber_lastname{
+  height: 25px;
+  border-radius: 10px;
+  resize: none;
+}
+#subscriber_email{
+  height: 25px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.form-white-stuff{
+  background-color: white;
+  color: black;
+}
+
+hr {
+  width: 100%;
 }
