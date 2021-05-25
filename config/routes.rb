@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  root :to => 'subscribers#new'
+
+  #login session routes
+   get '/login' => 'session#new'
+   post '/login' => 'session#create'
+   delete '/login' => 'session#destroy'
+
   resources :subscribers
-  resources :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :users, :only => [:index]
+
 end
