@@ -16,10 +16,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
-  background-image: 
-}
-
 .login-div {
   border-radius: 0.5em;
   background-color: #333333;
@@ -33,6 +29,7 @@ body {
 }
 
 .login-header {
+  padding-bottom: 20px;
   font-weight: bold;
   font-size: 24;
 }
@@ -48,4 +45,8 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 0.2em;
+}
+
+.login-field {
+  color: #C4C4C4;
 }
