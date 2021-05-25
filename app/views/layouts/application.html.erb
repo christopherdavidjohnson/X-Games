@@ -10,9 +10,11 @@
   </head>
 
   <body>
-        <button class="login-button">
-          <%= link_to "Admin Login", login_path %>
-        </button>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <%= link_to "Admin Login", login_path, :class => "navbar-brand mb-0 h1"%>
+        </div>
+      </nav>
 
     <%= yield %>
   </body>
