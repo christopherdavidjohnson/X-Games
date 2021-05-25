@@ -6,7 +6,7 @@ Rails.application.routes.draw do
    post '/login' => 'session#create'
    delete '/login' => 'session#destroy'
 
-  resources :subscribers, :only => [:index, :new, :destroy]
+  resources :subscribers
 
   resources :users, :only => [:index]
 
